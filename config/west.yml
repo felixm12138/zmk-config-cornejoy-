@@ -2,15 +2,15 @@ manifest:
   remotes:
    - name: zmkfirmware
      url-base: https://github.com/zmkfirmware
-   - name: badjeff
-     url-base: https://github.com/badjeff
+   - name: felixm12138
+     url-base: https://github.com/felixm12138
   projects:
    - name: zmk
-     remote: badjeff
+     remote: zmkfirmware
      revision: main
      import: app/west.yml
    - name: zmk-analog-input-driver
-     remote: badjeff
+     remote: felixm12138
      revision: main
   self:
     path: config
