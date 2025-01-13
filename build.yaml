@@ -1,4 +1,6 @@
 include:
    - board: nice_nano_v2
-     shield: fk40b
+     shield: cornejoy_left
      snippet: studio-rpc-usb-uart
+   - board: nice_nano_v2
+     shield: cornejoy_right

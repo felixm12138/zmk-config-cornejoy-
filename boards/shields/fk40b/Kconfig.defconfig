@@ -1,9 +1,0 @@
-# Copyright (c) 2020 The ZMK Contributors
-# SPDX-License-Identifier: MIT
-
-if SHIELD_FK40B
-
-config ZMK_KEYBOARD_NAME
-    default "FK40B"
-
-endif

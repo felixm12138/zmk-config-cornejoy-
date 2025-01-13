@@ -1,0 +1,15 @@
+file_format: "1"
+id: cornejoy
+name: cornejoy
+type: shield
+url: https://github.com/felixm12138/cornejoy
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - underglow
+  - studio
+siblings:
+  - cornejoy_left
+  - cornejoy_right
